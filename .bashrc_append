@@ -1,0 +1,16 @@
+export GIT_PS1_SHOWUNTRACKEDFILES=true
+export GIT_PS1_SHOWCOLORHINTS=true
+export GIT_PS1_SHOWDIRTYSTATE=true
+PROMPT_COMMAND='__git_ps1 "${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u \[\033[01;34m\]\w\[\033[00m\]" " \$ "'
+
+export EDITOR=vim
+export GPG_TTY=$(tty)
+export GREN_GITHUB_TOKEN=
+
+complete -C /usr/local/bin/terraform terraform
+
+export RUBYOPT='-W:no-deprecated -W:no-experimental'
+
+export PATH=~/bin:~/node/bin:~/.rvm/bin:~/.local/bin:$PATH
+
+export GOOGLE_AUTH_SUPPRESS_CREDENTIALS_WARNINGS=true

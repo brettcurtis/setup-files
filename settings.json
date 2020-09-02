@@ -1,0 +1,8 @@
+{
+    "hidden": false,
+    "name": "Ubuntu",
+    "source": "Windows.Terminal.Wsl",
+    "colorScheme": "One Half Dark",
+    "background": "#242424",
+    "startingDirectory": "//wsl$/Ubuntu/home/brett/"
+}
