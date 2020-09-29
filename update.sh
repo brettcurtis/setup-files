@@ -18,4 +18,4 @@ sudo unzip -o ${installDir}/$zip -d $installDir && sudo rm -v ${installDir}/$zip
 
 # Ubuntu
 sudo apt update
-sudo apt upgrade
+sudo apt -y upgrade
