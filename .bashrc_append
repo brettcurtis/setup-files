@@ -9,6 +9,7 @@ export EDITOR=vim
 export GPG_TTY=$(tty)
 export GREN_GITHUB_TOKEN=
 
+complete -C /usr/local/bin/vault vault
 complete -C /usr/local/bin/terraform terraform
 
 export RUBYOPT='-W:no-deprecated -W:no-experimental'
@@ -16,3 +17,5 @@ export RUBYOPT='-W:no-deprecated -W:no-experimental'
 export PATH=~/bin:~/node/bin:~/.rvm/bin:~/.local/bin:$PATH
 
 export GOOGLE_AUTH_SUPPRESS_CREDENTIALS_WARNINGS=true
+
+eval "$(gh completion -s bash)"
