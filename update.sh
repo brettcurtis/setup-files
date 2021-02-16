@@ -19,3 +19,8 @@ sudo unzip -o ${installDir}/$zip -d $installDir && sudo rm -v ${installDir}/$zip
 # Ubuntu
 sudo apt update
 sudo apt -y upgrade
+
+# PIP3
+pip3 install checkov -U
+pip3 install pre-commit -U
+pip3 install azure-cli -U
