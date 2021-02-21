@@ -4,5 +4,6 @@
     "source": "Windows.Terminal.Wsl",
     "colorScheme": "One Half Dark",
     "background": "#242424",
+    "bellStyle": "none",
     "startingDirectory": "//wsl$/Ubuntu/home/brett/"
 }
